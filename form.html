@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moc form</title>
+
+    <link rel="stylesheet" href="forms1.css">
+
+</head>
+
+<body>
+    <h1>Kindly complete your request</h1>
+    <form action="/https">
+        <p>
+            <label for="username">Enter your Name</label>
+            <input type="text" placeholder="Name" id="username" name="user">
+        </p>
+        <p>
+            <label for="password">Enter your Number</label>
+            <input type="password" placeholder="Mobile" id="password" name="password">
+        </p>
+
+        <label for="box">Any special requests</label>
+        <br>
+        <textarea id="box" rows="10" cols="10" placeholder="enter your request"></textarea>
+
+        <h3>The available candy sizings are(in the box)</h3>
+        <p>
+            <label for="a">Small(100 g)</label>
+            <input type="radio" name="size" id="a" value="s">
+        </p>
+        <p>
+            <label for="b">Medium(300 g)</label>
+            <input type="radio" name="size" id="b" value="m">
+        </p>
+        <p>
+            <label for="c">Large(500 g)</label>
+            <input type="radio" name="size" id="c" value="l">
+        </p>
+        <label for="meal">Menu</label>
+        <select name="meal" id="meal">
+            <option value="Momos">Pink and White Marshmallow</option>
+            <option value="Chilli Chicken">Raspberry</option>
+            <option value="chilli potato">Bubblegum balls</option>
+            <option value="Egg roll">Chocolate Flavoured Fudge</option>
+            <option value="jelly">Fizzy jellies</option>
+
+        </select>
+        <p>
+            <button><a href="moc.html">Submit</a></button>
+
+        </p>
+    </form>
+</body>
+
+</html>
